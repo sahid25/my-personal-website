@@ -1,0 +1,217 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+
+/* /Google font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+  /* font-family: 'poppins'; */
+}
+
+section {
+  width: 100%;
+  padding: 90px 0;
+}
+
+/* Merge .Header Area & .Bio Area  */
+
+
+.header-area {
+  height: 500px;
+  background-image: url(../images/header-bg.png);
+  background-position: top center;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+
+.header-area .name-info {
+  padding-bottom: 0px;
+  font-size: 30px;
+  color: #262626;
+  margin-bottom: 0;
+}
+
+.header-area .profile-text {
+  font-family: poppins;
+  font-weight: 500;
+  color: dimgray;
+  padding-bottom: 30px;
+}
+
+.header-area h1 {
+  font-size: 50px;
+  margin-top: 0;
+  color: #ff4566;
+}
+
+.header-content {
+  max-width: 500px;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 5%;
+  padding-top: 8%;
+}
+
+.header-content:last-child {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.header-content img {
+  width: 100%;
+}
+
+/* Biography section */
+
+.bio-area {
+  background-image: url(../images/biography-bg.png);
+  padding-bottom: 200px;
+  height: 500px;
+  background-position: left;
+}
+
+.bio-content {
+  max-width: 500px;
+  float: left;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.bio-content .name-info {
+  color: #262626;
+}
+
+.bio-content .bio-text {
+  padding-bottom: 30px;
+  font-family: poppins;
+  color: dimgray;
+  text-align: initial;
+}
+
+.bio-content:last-child {
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.bio-content img {
+  width: 100%;
+}
+
+/* Link Button  */
+
+.link-button {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #ff4566;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+/* Latest Work Area  */
+
+.latest-work-area {
+  background-image: url(../images/latest-work-bg.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.latest-work-area .work-title-name {
+  text-align: center;
+  color: #262626;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.latest-work-content {
+  width: 25%;
+  display: inline-block;
+  position: relative;
+  margin: 5% 0;
+  left: 10%;
+  padding-right: 1%;
+}
+
+.latest-work-content img {
+  width: 100%;
+  transition: all 1s;
+
+}
+
+.latest-work-content img:hover {
+  transform: scale(1.2);
+}
+
+/* Footer Area  */
+
+.bottom-area {
+  /* padding: 90px 0; */
+  background-image: url(../images/footer-bg.png);
+  background-position: top center;
+  background-size: cover;
+}
+
+.bottom-area .client-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #262626;
+}
+
+.bottom-area .client-msg {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  color: #262626;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.bottom-area h2,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #262626;
+}
+
+.bottom-area h5 {
+  color: dimgray;
+
+}
+
+.bottom-area .message-box {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ff4566;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bottom-area .msg-title {
+  font-weight: 500;
+}
+
+.bottom-area .msg-email {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+/* Footer  */
+footer p {
+  font-weight: 600;
+  text-align: center;
+  color: dimgray;
+}
