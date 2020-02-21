@@ -1,5 +1,5 @@
 /* Google Font  */
-@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins|Roboto&display=swap');
 
 /* /Google font */
 body {
@@ -7,11 +7,12 @@ body {
   padding: 0;
   font-family: 'roboto';
   /* font-family: 'poppins'; */
+  /* font-family: 'lato'; */
 }
 
 section {
   width: 100%;
-  padding: 90px 0;
+  padding: 70px 0;
 }
 
 /* Merge .Header Area & .Bio Area  */
@@ -44,6 +45,7 @@ section {
   font-size: 50px;
   margin-top: 0;
   color: #ff4566;
+  font-family: poppins;
 }
 
 .header-content {
@@ -52,7 +54,7 @@ section {
   margin-left: 5%;
   padding-left: 5%;
   margin-top: 5%;
-  padding-top: 8%;
+  padding-top: 10%;
 }
 
 .header-content:last-child {
@@ -150,7 +152,6 @@ section {
 /* Footer Area  */
 
 .bottom-area {
-  /* padding: 90px 0; */
   background-image: url(../images/footer-bg.png);
   background-position: top center;
   background-size: cover;
@@ -171,13 +172,20 @@ section {
   color: #262626;
   font-weight: 600;
   font-size: 17px;
+  line-height: 1.6;
+  font-family: lato;
 }
 
-.bottom-area h2,
+.bottom-area h3,
 h5 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   text-align: center;
+  color: #ffffff;
+  font-family: lato;
+}
+
+.bottom-area h3 {
   color: #262626;
 }
 
@@ -194,10 +202,17 @@ h5 {
   color: #ffffff;
   text-align: center;
   border-radius: 10px;
+  transition: .5s ease-in-out;
+}
+
+.bottom-area .message-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 5px -7px #ddd;
 }
 
 .bottom-area .msg-title {
   font-weight: 500;
+  color: #ffffff;
 }
 
 .bottom-area .msg-email {
@@ -205,13 +220,15 @@ h5 {
   padding-top: 10px;
   padding-bottom: 30px;
   font-weight: 600;
+  font-family: lato;
   letter-spacing: 2px;
 }
 
 
 /* Footer  */
 footer p {
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   color: dimgray;
+  font-family: lato;
 }
